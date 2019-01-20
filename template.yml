@@ -56,7 +56,7 @@ Resources:
         GetEvent:
           Type: Api
           Properties:
-            Path: /
+            Path: /Cork
             Method: get
   LambdaExecutionRole:
     Description: Creating service role in IAM for AWS Lambda
