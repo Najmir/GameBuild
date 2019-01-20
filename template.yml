@@ -40,7 +40,7 @@ Resources:
             Path: /
             Method: get
     GetTestServerLess:
-       Type : AWS::Serverless::Function
+      Type : AWS::Serverless::Function
       Properties: 
         Handler: Cork::Cork.Functions::Get
 		FunctionName:CorkTestServerless
